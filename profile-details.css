@@ -10,7 +10,8 @@ body{
 }
 .navbar{
     position: fixed;
-    top: 0%;
+   top: 0;
+   left: 0;
     width: 100%;
     padding: 20px 60px;
     display: flex;
@@ -19,7 +20,7 @@ body{
     background: linear-gradient(to bottom,
     rgba(0, 0, 0, 0.7) 0%,
     rgba(0, 0, 0, 0) 100%);
-    z-index: 100;
+    z-index: 1000;
     transition: background-color 0.3s ;
 }
 .navbar-nav{
@@ -60,9 +61,11 @@ body{
   background-color: #141414;
   min-block-size: 100vh;
   color: #fff;
+  padding-top: 70px;
 }
 
 .profile-details-container {
+  margin-top: 100px;
   max-inline-size: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
